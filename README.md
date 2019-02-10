@@ -2,7 +2,7 @@
 
 ## Test Cases
 def test_get_answer():<br />
-    l = Lottery(numbers=[9])<br />
+    \t l = Lottery(numbers=[9])<br />
     assert l.get_answer() is not None<br />
     assert l.get_answer() == 9<br />
     
