@@ -1,6 +1,11 @@
 # lottery_oop
 
-# Test Cases
+## Test Cases
+def test_get_answer():<br />
+    l = Lottery(numbers=[9])<br />
+    assert l.get_answer() is not None<br />
+    assert l.get_answer() == 9<br />
+    
 def test_random_range():<br />
         l = Lottery()<br />
         assert l.get_answer() is not None<br />
